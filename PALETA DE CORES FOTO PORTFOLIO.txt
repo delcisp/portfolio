@@ -1,0 +1,6 @@
+PALETA DE CORES FOTO PORTFOLIO
+#e25efe - rosa
+#fac3ad - cor de pele clara
+#e8f2f0 - branca
+#7e31ea - roxo
+#191327 - preto
