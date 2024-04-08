@@ -3,16 +3,65 @@ import React, {useTransition, useState} from 'react';
 import Image from 'next/image';
 import TabButton from './TabButton';
 
+
+const TAB_DATA = [
+  {
+    title: "Habilidades",
+    id: "habilidades", 
+    content: (
+      <ul className='list-disc pl-2'>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Javascript</li>
+        <li>Wordpress</li>
+        <li>Bootstrap</li>
+        <li>Tailwind</li>
+        <li>PHP</li>
+        <li>Laravel</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>Spring Boot</li>
+        <li>Postman</li>
+      </ul>
+    )
+  },
+  {
+    title: "educacao",
+    id: "educacao", 
+    content: (
+      <ul className='list-disc pl-2'>
+        <li>Técnologo em Análise e Desenvolvimento de Sistemas - FAMETRO </li>
+        <li>Curso completo de Desenvolvimento Web FullstackS </li>
+        <li>Curso de Java do básico ao avançado</li>
+        <li>Curso básico de Python</li>
+        <li>Desenvolvimento de APIs</li>
+      </ul>
+    )
+  },
+  {
+    title: "Experiencias",
+    id: "experiencias", 
+    content: (
+      <ul className='list-disc pl-2'>
+        <li>Estagiária de Desenvolvimento de Sistemas e atendimento ao usuário </li>
+        <li>Desenvolvedora Junior Fullstack</li>
+      </ul>
+    )
+  }
+]
+
+
 const AboutSection = () => {
 
-  const [tab, setTab] = useState("Skills");
+  const [tab, setTab] = useState("habilidades");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = id => {
     startTransition(() => {
-
+      setTab(id);
     });
-  }
+  };
 
   return (
    <section className="text-white ">
@@ -32,8 +81,8 @@ const AboutSection = () => {
       <TabButton  selectTab={() => handleTabChange("habilidades")} active={tab === "habilidades"}> Habilidades </TabButton>
       <TabButton  selectTab={() => handleTabChange("educacao")} active={tab === "educacao"}> Educação </TabButton>
       <TabButton  selectTab={() => handleTabChange("experiencias")} active={tab === "experiencias"}> Experiências </TabButton>
-    
       </div>
+      <div className='mt-8 '>{TAB_DATA.find((t) => t.id === tab).content}</div>
     </div>
     </div>
    </section>
