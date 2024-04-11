@@ -58,6 +58,11 @@ const ProjectsSection = () => {
   const handleTagChange = (newTag) => {
     setTag(newTag);
   }
+
+  const filteredProjects = ProjectsData.filter((project) => {
+    	project.tag.includes(tag);
+  } )
+
   return (
     <>
     <h2>Meus projetos</h2>
