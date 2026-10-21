@@ -1,6 +1,8 @@
 PALETA DE CORES FOTO PORTFOLIO
-#e25efe - rosa
-#fac3ad - cor de pele clara
-#e8f2f0 - branca
-#7e31ea - roxo
-#191327 - preto
+#871e13 - VERMELHO // Botoes, Links destacados, icones
+#121214 - PRETO // background
+#1C1C21 - CINZA CARVAO // cards, menus, seções alternadas
+#34343C - CINZA GRAFITE // bordas, campos de form
+#F2F0EE - BRANCO GELO // titulos, textos principais
+#A63A2B - VERMELHO HOVER // hover, indicadores e detalhes
+#A7A3A0 - CINZA // p textos, infos etc
