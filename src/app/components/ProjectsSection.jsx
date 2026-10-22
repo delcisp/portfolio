@@ -11,16 +11,16 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/6.png",
     tag: ["Todos", "Desktop"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/delcisp/backend_ponto",
     previewUrl: "/",
   },
   {
     id: 2,
     title: "DiariaFácil",
     description: "Project 2 description",
-    image: "/images/projects/2.png",
+    image: "/images/diariaFacil.png",
     tag: ["Todos", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/delcisp/diariaFacil",
     previewUrl: "/",
   },
   {
@@ -29,7 +29,7 @@ const projectsData = [
     description: "etc etc etc",
     image: "/images/projects/oka_project.png",
     tag: ["Todos", "Web"],
-    gitUrl: "github.com/delcisp",
+    gitUrl: "https://github.com/delcisp/oka-project",
     previewUrl: "github.com/delcisp"
   },
   {
@@ -47,7 +47,7 @@ const projectsData = [
     description: "Authentication and CRUD operations",
     image: "/images/projects/5.png",
     tag: ["Todos", "Desktop"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/delcisp/apidedelivery",
     previewUrl: "/",
   },
   {
@@ -56,7 +56,7 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/6.png",
     tag: ["Todos", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/delcisp/crud-react-laravel",
     previewUrl: "/",
   },
   {
@@ -65,7 +65,7 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/6.png",
     tag: ["Todos", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/delcisp/chronos-pomo",
     previewUrl: "/",
   },
   
