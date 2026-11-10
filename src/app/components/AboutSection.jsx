@@ -68,13 +68,10 @@ const AboutSection = () => {
     <Image src="/images/about-image.jpg" alt='sobre mim'  width={500} height={500}  /> 
     <div>
     <h2 className="text-4xl font-bold text-[var(--text-white)] mb-4">Sobre mim</h2>
-    <p className="text-base lg:text-lg text-[var(--secondary-gray)] ">Olá! Me chamo Delciane Pinheiro e tenho 23 anos, me descrevo como uma pessoa 
-    animada, proativa, comunicativa e principalmente determinada a cumprir meus objetivos pessoais e profissionais. 
-    Sou desenvolvedora de sistemas Web e também desktop, atuando com as tecnologias HTML, CSS, Javascript, Bootstrap,
-    Tailwind, PHP, Laravel, Python, Java e Spring Boot. Utilizo banco de dados como mysql, Firebase e tenho noções de 
-    Postgree. Estou no último período da graduação de Análise e Desenvolvimento de Sistemas onde venho aprendendo sobre
-    metodologias ágeis, gerência de projetos, análise de requisitos e estou pronta para demonstrar
-    o aprendizado que obtive. 
+    <p className="text-base lg:text-lg text-[var(--secondary-gray)] ">
+      Sou Analista Desenvolvedora, com experiência em desenvolvimento e manutenção de sistemas, levantamento de requisitos, análise de processos e gerenciamento de projetos de tecnologia. Atuo em todo o ciclo de desenvolvimento, desde a identificação das necessidades até a implementação e evolução das soluções, trabalhando com diferentes tecnologias e bancos de dados.
+
+Também tenho experiência na coordenação de atividades e acompanhamento de equipe, conciliando conhecimentos técnicos com organização, comunicação e visão de negócio. Sou uma profissional proativa, autodidata e comprometida com a busca por soluções que otimizem processos e gerem resultados.
      </p>
     <div className="flex flex-row mt-8">
       <TabButton  selectTab={() => handleTabChange("stacks")} active={tab === "stacks"}> Stacks </TabButton>

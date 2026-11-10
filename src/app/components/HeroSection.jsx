@@ -16,7 +16,7 @@ const HeroSection = () => {
                 <TypeAnimation sequence={[
     'Web', 1000,
     'Fullstack', 1000,
-    'Front-end', 1000,
+    'PHP', 1000,
     '', 1000
 ]} 
 wrapper="span"

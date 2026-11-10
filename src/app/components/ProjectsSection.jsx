@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Controle de entrada e saída -  Reconhecimento Facial",
-    description: "Project 5 description",
+    description: "Projeto de controle de entrada e saída de pessoas utilizando reconhecimento facial. O sistema permite que os usuários registrem suas entradas e saídas de forma rápida e segura, utilizando a tecnologia de reconhecimento facial para autenticação. Feito com Python.",
     image: "/images/projects/6.png",
     tag: ["Todos", "Desktop"],
     gitUrl: "https://github.com/delcisp/backend_ponto",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "DiariaFácil",
-    description: "Project 2 description",
+    description: "Projeto de contrato de serviços domésticos, onde o usuário pode contratar diaristas para realizar serviços em sua residência. O sistema permite que os usuários encontrem profissionais qualificados, agendem serviços e realizem pagamentos de forma segura. Feito com PHP e Laravel.",
     image: "/images/diariaFacil.png",
     tag: ["Todos", "Web"],
     gitUrl: "https://github.com/delcisp/diariaFacil",
@@ -26,9 +26,9 @@ const projectsData = [
   {
     id: 3, 
     title: "Oka Studio",
-    description: "etc etc etc",
-    image: "/images/projects/oka_project.png",
-    tag: ["Todos", "Web"],
+    description: "Site institucional para Oka Studio, um estúdio de design e desenvolvimento web. O site apresenta informações sobre os serviços oferecidos, portfólio de projetos anteriores e uma seção de contato para potenciais clientes. Feito com Lovable.",
+    image: "/images/projects/new_oka_project.png",
+    tag: ["Todos", "Vibe Coding"],
     gitUrl: "https://github.com/delcisp/oka-project",
     previewUrl: "github.com/delcisp"
   },
@@ -110,6 +110,12 @@ const ProjectsSection = () => {
           name="Desktop"
           isSelected={tag === "Desktop"}
         />
+        <ProjectTag 
+        onClick={handleTagChange} 
+        name="Vibe Coding"
+        isSelected={tag === "Vibe Coding"}
+        />
+
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
