@@ -27,7 +27,7 @@ repeat={Infinity}
       
                 </h1>
              <p className=" text-[var(--secondary-gray)] text-base sm:text-lg mb-6 lg:text-xl">Aqui contém os projetos que desenvolvi ao longo dos anos em que trabalho
-                na área de tecnologia com desenvolvimento de sistemas web, desktop, API etc.
+                na área de tecnologia com desenvolvimento e gerenciamento de sistemas web, desktop, API.
              </p>
               <div>
                <button className="px-1 w-full sm:w-fit py-1 rounded-full mr-4 bg-gradient-to-br from-[var(--main-red)] via-[var(--hover-red)] to-[var(--main-red)] text-[var(--ice-white)]  mt-3" >

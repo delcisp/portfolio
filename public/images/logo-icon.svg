@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Logo: borboleta feita de código">
+  <defs>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF5A4D"/>
+      <stop offset="1" stop-color="#C1272D"/>
+    </linearGradient>
+  </defs>
+  <!-- fundo circular -->
+  <circle cx="32" cy="32" r="30" fill="#141414" stroke="url(#red)" stroke-width="2"/>
+  <!-- asas superiores: < e > -->
+  <polyline points="26,22 12,33 26,44" fill="none" stroke="url(#red)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="38,22 52,33 38,44" fill="none" stroke="url(#red)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- asas inferiores menores -->
+  <polyline points="25,47 18,52" fill="none" stroke="#FF5A4D" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <polyline points="39,47 46,52" fill="none" stroke="#FF5A4D" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <!-- corpo: barra / -->
+  <line x1="34.5" y1="21" x2="29.5" y2="46" stroke="#F5F5F5" stroke-width="3.2" stroke-linecap="round"/>
+  <!-- antenas -->
+  <path d="M34.5 21 Q33 14.5 28.5 12" fill="none" stroke="#F5F5F5" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M34.5 21 Q36.5 14.5 41 12.5" fill="none" stroke="#F5F5F5" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="28.3" cy="11.8" r="1.8" fill="#FF5A4D"/>
+  <circle cx="41.3" cy="12.3" r="1.8" fill="#FF5A4D"/>
+</svg>
